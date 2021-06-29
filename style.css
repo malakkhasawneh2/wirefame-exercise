@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    
+}
+
+header {
+    background-color: grey;
+    margin-bottom: 15px;
+}
+/* header img {
+    margin-right: 200px;
+  
+} */
+
+/* ALL IMAGES */
+img {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+/* NAV BAR */
+li{
+    margin: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+
+/* FOOTER */
+footer {
+    background-color: gray;
+    height: 150px;
+}
+
+/* BOTTOM PIC WITH TEXT AND BUTTON NEXT TO IT */
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+section > ul > li> img {
+
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+
+button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 350ms;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+
